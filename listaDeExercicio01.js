@@ -58,12 +58,42 @@ console.log('resultado: ', resultado)
 
 //6  Menu com switch-case
 
-switch () {
-    case value:
+// switch () {
+//     case value:
         
-        break;
+//         break;
 
-    default:
-        break;
+//     default:
+//         break;
+// }
+
+//7 Validação de campo obrigatório
+
+let email = ''
+if (email) {
+    console.log('E-mail Válido')
+} else{
+    console.log('Preencha o campo de e-mail.')
+}
+
+//8 Validação de senha segura
+
+let senha
+let senhaValida = true
+if (senha == senhaValida){
+    console.log('senha válida')
+} else {
+    console.log('Senha muito curta')
+}
+
+//9 compra com saldo
+
+let saldo = 9.50
+let valorDaCompra = 9
+
+if (saldo >= valorDaCompra){
+    console.log('Compra Aprovada')
+} else {
+    console.log('Saldo insuficiente')
 }
 
